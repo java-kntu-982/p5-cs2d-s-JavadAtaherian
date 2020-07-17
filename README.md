@@ -1,7 +1,7 @@
 # P5 Counter-Strike 2D
 5th project
 
-![Check Style - CI](https://github.com/java-kntu-982/p5-cs2d<Your Project>/workflows/Check%20Style%20-%20CI/badge.svg)
+![Check Style - CI](https://github.com/java-kntu-982/p5-cs2d-s-JavadAtaherian/workflows/Check%20Style%20-%20CI/badge.svg)
 
 
 ## Details
@@ -12,7 +12,7 @@
 
 |First Name|Last Name|Student ID|
 |---|---|---|
-|first|person|.......|
+|mohamamd javad|Ataherian|9819493|
 |second|person|.......|
 
 
