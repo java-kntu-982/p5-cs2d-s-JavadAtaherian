@@ -1,10 +1,11 @@
 package ir.ac.kntu.cs2d.gun.rifle;
 
-public class Famas extends Rifle{
+public class P90 extends Rifle{
     final int ID = 0; // -1 for T , 0 for both , 1 for CT
 
-    public Famas() {
-        super(2250, 14, 120, 3300, 25);
+
+    public P90() {
+        super(2350, 11, 80, 3300, 50);
     }
 
     public int getID() {

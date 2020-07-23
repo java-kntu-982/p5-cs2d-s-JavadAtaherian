@@ -18,40 +18,17 @@ public class Colt {
     public int getPrice() {
         return price;
     }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     public int getDamage() {
         return damage;
     }
-
-    public void setDamage(int damage) {
-        this.damage = damage;
-    }
-
     public int getFireDuration() {
         return fireDuration;
     }
-
-    public void setFireDuration(int fireDuration) {
-        this.fireDuration = fireDuration;
-    }
-
     public int getReloadDuration() {
         return reloadDuration;
     }
-
-    public void setReloadDuration(int reloadDuration) {
-        this.reloadDuration = reloadDuration;
-    }
-
     public int getMagCapacity() {
         return MagCapacity;
     }
 
-    public void setMagCapacity(int magCapacity) {
-        MagCapacity = magCapacity;
-    }
 }
