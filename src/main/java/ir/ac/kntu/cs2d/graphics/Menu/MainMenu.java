@@ -140,9 +140,7 @@ public class MainMenu extends Application{
                     ((Node)(event.getSource())).getScene().getWindow().hide();
                     Platform.runLater(() -> {
                         try {
-
-
-//                            new TroopSelectionMenu().start(new Stage());
+//                            new MainMenu().start(new Stage());
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
