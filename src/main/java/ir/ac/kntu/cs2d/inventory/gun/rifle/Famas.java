@@ -1,4 +1,4 @@
-package ir.ac.kntu.cs2d.gun.rifle;
+package ir.ac.kntu.cs2d.inventory.gun.rifle;
 
 public class Famas extends Rifle{
     final int ID = 0; // -1 for T , 0 for both , 1 for CT

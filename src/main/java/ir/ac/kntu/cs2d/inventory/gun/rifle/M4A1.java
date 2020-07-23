@@ -1,4 +1,4 @@
-package ir.ac.kntu.cs2d.gun.rifle;
+package ir.ac.kntu.cs2d.inventory.gun.rifle;
 
 public class M4A1 extends Rifle{
     final int ID = 1; // -1 for T , 0 for both , 1 for CT
