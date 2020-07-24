@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-public class ReadMap {
+public class ReadMap /*extends Application */{
     ArrayList<ArrayList<Integer>> mapData = new ArrayList<>();
     ArrayList<Rectangle> walls = new ArrayList<>();
 
@@ -67,6 +67,10 @@ public class ReadMap {
         return walls;
 
     }
+//
+//    public static void main(String[] args) {
+//        launch(args);
+//    }
 
 }
 

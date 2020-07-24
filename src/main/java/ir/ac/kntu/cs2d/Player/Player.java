@@ -92,4 +92,20 @@ public class Player extends Circle{
     public void setMoney(int money) {
         this.money = money;
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "spawnX=" + spawnX +
+                ", spawnY=" + spawnY +
+                ", currentX=" + currentX +
+                ", currentY=" + currentY +
+                ", colt=" + colt +
+                ", rifle=" + rifle +
+                ", name='" + name + '\'' +
+                ", health=" + health +
+                ", money=" + money +
+                ", shape=" + shape +
+                '}';
+    }
 }
