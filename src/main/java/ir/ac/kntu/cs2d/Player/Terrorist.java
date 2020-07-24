@@ -10,8 +10,8 @@ import javafx.scene.shape.Circle;
 public class Terrorist extends Player{
     public Terrorist(String name) {
         super(725, 90, 725, 90, new Glock(), null, name, 100, 800, new Circle());
-        this.getShape().setCenterX(this.getSpawnX());
-        this.getShape().setCenterY(this.getSpawnY());
+        this.getShape().setCenterX(this.getCurrentX());
+        this.getShape().setCenterY(this.getCurrentY());
         this.getShape().setRadius(5);
         this.getShape().setFill(Color.TOMATO);
 

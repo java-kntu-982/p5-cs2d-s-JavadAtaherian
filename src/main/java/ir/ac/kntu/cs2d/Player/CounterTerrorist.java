@@ -10,8 +10,8 @@ import javafx.scene.shape.Circle;
 public class CounterTerrorist extends Player{
     public CounterTerrorist(String name) {
         super(725, 215, 725, 215, new USP(), null, name, 100, 800, new Circle());
-        this.getShape().setCenterX(this.getSpawnX());
-        this.getShape().setCenterY(this.getSpawnY());
+        this.getShape().setCenterX(this.getCurrentX());
+        this.getShape().setCenterY(this.getCurrentY());
         this.getShape().setRadius(5);
         this.getShape().setFill(Color.DARKGREEN);
     }
