@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+import ir.ac.kntu.cs2d.Game;
 import javafx.application.*;
 import javafx.stage.*;
 import javafx.geometry.*;
@@ -140,7 +141,8 @@ public class MainMenu extends Application{
                     ((Node)(event.getSource())).getScene().getWindow().hide();
                     Platform.runLater(() -> {
                         try {
-//                            new MainMenu().start(new Stage());
+                            new PlayerSelectionMenu().start(new Stage());
+
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
