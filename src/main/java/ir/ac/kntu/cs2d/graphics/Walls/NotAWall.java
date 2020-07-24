@@ -10,6 +10,6 @@ public class NotAWall extends Wall{
         this.getWall().setY(y);
         this.getWall().setHeight(5);
         this.getWall().setWidth(5);
-        this.getWall().setFill(Color.SNOW);
+        this.getWall().setFill(Color.WHITE);
     }
 }

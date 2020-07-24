@@ -1,30 +1,20 @@
 package ir.ac.kntu.cs2d.graphics.Map;
 
 import ir.ac.kntu.cs2d.graphics.Walls.*;
-import javafx.application.Application;
-import javafx.scene.Group;
-import javafx.scene.Scene;
-import javafx.scene.layout.GridPane;
 import javafx.scene.shape.Rectangle;
-import javafx.stage.Stage;
-
-import java.awt.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-public class ReadMap extends Application {
+public class ReadMap {
     ArrayList<ArrayList<Integer>> mapData = new ArrayList<>();
     ArrayList<Rectangle> walls = new ArrayList<>();
 
 
-
-
-    @Override
-    public void start(Stage stage) throws Exception {
-        Group root = new Group();
-        Scene scene = new Scene(root , 1000,1000);
+    public ArrayList<Rectangle> readMap() throws Exception {
+//        Group root = new Group();
+//        Scene scene = new Scene(root , 1000,1000);
         try(BufferedReader reader = new BufferedReader(new FileReader(new File("src/main/resources/maps/Map1.txt")))){
             String line ;
             while ( (line = reader.readLine()) != null){
@@ -70,16 +60,14 @@ public class ReadMap extends Application {
             }
         }
 
-        root.getChildren().addAll(walls);
+//        root.getChildren().addAll(walls);
+//
+//        stage.setScene(scene);
 
-        stage.setScene(scene);
-        stage.show();
-
+        return walls;
 
     }
-    public static void main(String[] args) {
-        launch();
-    }
+
 }
 
 
