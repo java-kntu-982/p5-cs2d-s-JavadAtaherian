@@ -93,6 +93,12 @@ public class Player extends Circle{
         this.money = money;
     }
 
+    public void relocate(int x , int y ){
+        this.setCurrentY(y);
+        this.setCurrentX(x);
+        ;
+    }
+
     @Override
     public String toString() {
         return "Player{" +
